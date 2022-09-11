@@ -1,4 +1,4 @@
-/* eslint-disable */ 
+/* eslint-disable */
 import React, { useEffect, useState } from 'react'
 import Screen from './Screen'
 
@@ -24,7 +24,7 @@ function Steps(props) {
                 <button className='btnSub' onClick={() => {
                     active >= 3 ? setActive(0) : setActive(active + 1); console.log(active)
                 }}>{active === 3 ? "Launch" : "Create Workspace"}</button>
-               
+
             </div>
         </div>
     )

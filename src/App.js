@@ -6,8 +6,8 @@ import Header from './Components/Header';
 function App() {
   return (
     <div className='Main'>
-    <Header></Header>
-      <Steps></Steps>
+      <Header />
+      <Steps />
     </div>
   );
 }
